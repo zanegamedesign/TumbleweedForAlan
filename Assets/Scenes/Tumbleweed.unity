@@ -1642,9 +1642,12 @@ MonoBehaviour:
   - {fileID: -6757387137590076688, guid: 236abaa71475b0742a6fb40f34c7849f, type: 3}
   tntSpawner: {fileID: 219237563}
   shot_delay: 2
+  block_delay: 3
   bullet_object: {fileID: 8426257931583266108, guid: 5d3077931e838864cbbb503c386225c4,
     type: 3}
+  blockPrefab: {fileID: 671166075}
   blockDamageReduction: 2
+  blockDuration: 2
 --- !u!212 &1307930927
 SpriteRenderer:
   m_ObjectHideFlags: 0
