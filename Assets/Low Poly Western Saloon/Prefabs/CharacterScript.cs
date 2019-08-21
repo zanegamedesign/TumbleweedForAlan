@@ -5,12 +5,22 @@ using UnityEngine;
 
 public class CharacterScript : MonoBehaviour
 {
+    public GameObject SamsHealthBar;
     int health = 16;
-   
+    public Sprite[] HealthBarImages;
+
     public Transform tntSpawner;
     public float shot_delay = 2f;
+    public float block_delay = 3f;
     public GameObject bullet_object;
     private float shot_cooldown = 0f;
+    private float block_cooldown = 0f;
+
+    public GameObject blockPrefab;
+    private bool isBlocking = false;
+    public int blockDamageReduction = 2;
+    public float blockDuration = 2f;
+    private float blockDurationCooldown = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +36,54 @@ public class CharacterScript : MonoBehaviour
             Shoot();
         }
 
-        void Shoot()
+        SamsHealthBar.GetComponent<SpriteRenderer>().sprite = HealthBarImages[health - 1];
+
+        if (isBlocking)
+            blockDurationCooldown -= Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.D))
         {
-            Instantiate(bullet_object, tntSpawner.position, transform.rotation);
-            shot_cooldown = Time.time + shot_delay;
+            if (Time.time >= block_cooldown)
+            {
+                Block(true);
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.D) || (blockDurationCooldown <= 0 && isBlocking))
+        {
+            Block(false);
+        }
+    }
+
+    void Shoot()
+    {
+        Instantiate(bullet_object, tntSpawner.position, tntSpawner.rotation);
+        shot_cooldown = Time.time + shot_delay;
+    }
+
+    void Block(bool block)
+    {
+        isBlocking = block;
+        if (block == false)
+        {
+            Debug.Log("Stop blocking");
+            block_cooldown = Time.time + block_delay;
+            blockPrefab.SetActive(false);
+        } else
+        {
+            Debug.Log("Start blocking");
+            blockDurationCooldown = blockDuration;
+            blockPrefab.SetActive(true);
+        }
+    }
+    public void TakeDamage(int amount)
+    {
+        if(isBlocking == false)
+        {
+            health -= amount;
+        }
+        else
+        {
+            health -= (amount - blockDamageReduction);
         }
     }
 }

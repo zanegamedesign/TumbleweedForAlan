@@ -205,10 +205,10 @@ TextureImporter:
       name: healthbar _0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4284
-        width: 1023
-        height: 612
+        x: 6
+        y: 4316
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,7 +216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce5b4b59eeda7a458692d2012994110
+      spriteID: f1fcc060c8ce6b942ac3506466cd03d6
       internalID: -6757387137590076688
       vertices: []
       indices: 
@@ -226,10 +226,10 @@ TextureImporter:
       name: healthbar _1
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 4284
-        width: 1023
-        height: 612
+        x: 1029
+        y: 4316
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,7 +237,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b09fc291eaa6e408c67f88fb49e571
+      spriteID: fad7b2039164e1a4980fc6d3b382c3de
       internalID: 6968511709630484743
       vertices: []
       indices: 
@@ -247,10 +247,10 @@ TextureImporter:
       name: healthbar _2
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 4284
-        width: 1023
-        height: 612
+        x: 2052
+        y: 4316
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,7 +258,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a21e287255d0544dae77ddf104900d6
+      spriteID: bf73c835ed0ff9149a5f7c4115dffb84
       internalID: -5908108537488069795
       vertices: []
       indices: 
@@ -268,10 +268,10 @@ TextureImporter:
       name: healthbar _3
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 4284
-        width: 1023
-        height: 612
+        x: 3075
+        y: 4316
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,7 +279,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81cdc89b95f2fc841a181d8fed81a29b
+      spriteID: c3f72a14d9434ec418b7aebeb69f12f5
       internalID: 1380235636686090969
       vertices: []
       indices: 
@@ -289,10 +289,10 @@ TextureImporter:
       name: healthbar _4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3672
-        width: 1023
-        height: 612
+        x: 6
+        y: 3704
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,7 +300,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9428cd4399e3fb6478aef8b9636505e0
+      spriteID: e54efa746ba52c14cb2b3a363441e94b
       internalID: -4215922435131509393
       vertices: []
       indices: 
@@ -310,10 +310,10 @@ TextureImporter:
       name: healthbar _5
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 3672
-        width: 1023
-        height: 612
+        x: 1029
+        y: 3704
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,7 +321,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f79ebf070eaa54fac1888b695b816d
+      spriteID: 8f60d3b1e6dc5c747b7bae0fce951233
       internalID: -6341316239865106089
       vertices: []
       indices: 
@@ -331,10 +331,10 @@ TextureImporter:
       name: healthbar _6
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 3672
-        width: 1023
-        height: 612
+        x: 2052
+        y: 3704
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,7 +342,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8193f64bc7d955340abd24b0d91e4ad4
+      spriteID: 8e4cda22758e0c345a97bf37514f174a
       internalID: -497216731508774679
       vertices: []
       indices: 
@@ -352,10 +352,10 @@ TextureImporter:
       name: healthbar _7
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 3672
-        width: 1023
-        height: 612
+        x: 3075
+        y: 3704
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,7 +363,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 646684bad9de2ad4691cd8e2d71a9801
+      spriteID: 593a4063c7eb50647abe580a7d34786c
       internalID: -4039967833897073495
       vertices: []
       indices: 
@@ -373,10 +373,10 @@ TextureImporter:
       name: healthbar _8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3060
-        width: 1023
-        height: 612
+        x: 6
+        y: 3092
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,7 +384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39a3d42024740f49bd69659088587a3
+      spriteID: 7aca7e8fd37da9648b03c42b1856fc55
       internalID: -4055309532069810846
       vertices: []
       indices: 
@@ -394,10 +394,10 @@ TextureImporter:
       name: healthbar _9
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 3060
-        width: 1023
-        height: 612
+        x: 1029
+        y: 3092
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,7 +405,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8077a5d538def3c46889cae0990c390c
+      spriteID: 1d44921003f13594a8bfcb86806588c6
       internalID: 7704974569163679814
       vertices: []
       indices: 
@@ -415,10 +415,10 @@ TextureImporter:
       name: healthbar _10
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 3060
-        width: 1023
-        height: 612
+        x: 2052
+        y: 3092
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,7 +426,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a2beb14fe8100d4e8ddf68cc86a7135
+      spriteID: f8ffc3f23c167c741b25eb2f0acc9c37
       internalID: 1778679343225972575
       vertices: []
       indices: 
@@ -436,10 +436,10 @@ TextureImporter:
       name: healthbar _11
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 3060
-        width: 1023
-        height: 612
+        x: 3075
+        y: 3092
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,7 +447,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77393bdc020830743bfaf2210f8b1822
+      spriteID: a13822e406775594a961dd302a583e02
       internalID: 7616189774716837480
       vertices: []
       indices: 
@@ -457,10 +457,10 @@ TextureImporter:
       name: healthbar _12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2448
-        width: 1023
-        height: 612
+        x: 6
+        y: 2480
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,7 +468,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12fb9e77f95b94b4c8f1a44de5252b50
+      spriteID: 6a6b4e7e6244ca547a26c557399d3f72
       internalID: -8066204794272887344
       vertices: []
       indices: 
@@ -478,10 +478,10 @@ TextureImporter:
       name: healthbar _13
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 2448
-        width: 1023
-        height: 612
+        x: 1029
+        y: 2480
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,7 +489,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 461f0199f6e943d4baccfacf96b5b52d
+      spriteID: 58e3997dd966cf54483631aa24d1d1f1
       internalID: 3325997765550892864
       vertices: []
       indices: 
@@ -499,10 +499,10 @@ TextureImporter:
       name: healthbar _14
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 2448
-        width: 1023
-        height: 612
+        x: 2052
+        y: 2480
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,7 +510,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde865a271c6d6f46b1aef809b1ca115
+      spriteID: 8d957485f48c65d41ad681d26b0698af
       internalID: -8232313945853970275
       vertices: []
       indices: 
@@ -520,10 +520,10 @@ TextureImporter:
       name: healthbar _15
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 2448
-        width: 1023
-        height: 612
+        x: 3075
+        y: 2480
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,7 +531,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf1c132a99ee7c438302b28cd5df634
+      spriteID: 876008cdfb0a16b4c93264630e852c61
       internalID: 8199314272174387006
       vertices: []
       indices: 
@@ -541,10 +541,10 @@ TextureImporter:
       name: healthbar _16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1836
-        width: 1023
-        height: 612
+        x: 8
+        y: 1868
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,7 +552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b832c663a5badd24682e9079dce7bc11
+      spriteID: a3bb9dad70066d14fa07e9f0e8022f8e
       internalID: 438001742474240653
       vertices: []
       indices: 
@@ -562,10 +562,10 @@ TextureImporter:
       name: healthbar _17
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 1836
-        width: 1023
-        height: 612
+        x: 1031
+        y: 1868
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,7 +573,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5372c463af88a6f4db49b6c7571d2fc8
+      spriteID: 1cf77c31e6178ba43ba0ca98ec0451c5
       internalID: -2303686569052557985
       vertices: []
       indices: 
@@ -583,10 +583,10 @@ TextureImporter:
       name: healthbar _18
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 1836
-        width: 1023
-        height: 612
+        x: 2054
+        y: 1868
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,7 +594,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 128e07a089e896141b2ac4ab162cbddd
+      spriteID: 3f04d46fde8437c4e84b893eaaed6ec9
       internalID: 3102254939816359562
       vertices: []
       indices: 
@@ -604,10 +604,10 @@ TextureImporter:
       name: healthbar _19
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 1836
-        width: 1023
-        height: 612
+        x: 3077
+        y: 1868
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,7 +615,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1380990324a0fcb4b9479a3ade0c3760
+      spriteID: b68f9b129ce487e4493ad245904ce0b1
       internalID: -1597052741817578456
       vertices: []
       indices: 
@@ -625,10 +625,10 @@ TextureImporter:
       name: healthbar _20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1224
-        width: 1023
-        height: 612
+        x: 8
+        y: 1256
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,7 +636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae754d4d75546a941a8d483880d8a41d
+      spriteID: 401919e79e1fe264683e917991958b80
       internalID: 5589030157183106551
       vertices: []
       indices: 
@@ -646,10 +646,10 @@ TextureImporter:
       name: healthbar _21
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 1224
-        width: 1023
-        height: 612
+        x: 1031
+        y: 1256
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,7 +657,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a43554d3f34b0344a978a9cceac9ca20
+      spriteID: d2ebcab58302ff54eb3c98ded9d883a8
       internalID: 7238799429825893839
       vertices: []
       indices: 
@@ -667,10 +667,10 @@ TextureImporter:
       name: healthbar _22
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 1224
-        width: 1023
-        height: 612
+        x: 2054
+        y: 1256
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,7 +678,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4192f1538813364f973b596c26b1c31
+      spriteID: 20a100b8138c2104e94056cb46a55bfb
       internalID: -5441304762461669957
       vertices: []
       indices: 
@@ -688,10 +688,10 @@ TextureImporter:
       name: healthbar _23
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 1224
-        width: 1023
-        height: 612
+        x: 3077
+        y: 1256
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,7 +699,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eaa40f96aec3b048bfcad7374fc20f4
+      spriteID: d220d29e83a8d504baa977ee4b274fa6
       internalID: -3631084073166913886
       vertices: []
       indices: 
@@ -709,10 +709,10 @@ TextureImporter:
       name: healthbar _24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 612
-        width: 1023
-        height: 612
+        x: 8
+        y: 644
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,7 +720,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0aea9982c347c547be3975ee49dc25f
+      spriteID: cd5bb19066152994e9b9d4fd807a9eb3
       internalID: -6147589245518278198
       vertices: []
       indices: 
@@ -730,10 +730,10 @@ TextureImporter:
       name: healthbar _25
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 612
-        width: 1023
-        height: 612
+        x: 1031
+        y: 644
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,7 +741,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e58358cb02cbe804f89b68754e085f7f
+      spriteID: 43ae994e1ea05664ba3e73b9b44314f1
       internalID: 7115271042653577186
       vertices: []
       indices: 
@@ -751,10 +751,10 @@ TextureImporter:
       name: healthbar _26
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 612
-        width: 1023
-        height: 612
+        x: 2054
+        y: 644
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -762,7 +762,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a93b4259bce208f4595f835d2b9d0a89
+      spriteID: 9433834b6a3f07c4faff2524f09f48fd
       internalID: 504246281433593626
       vertices: []
       indices: 
@@ -772,10 +772,10 @@ TextureImporter:
       name: healthbar _27
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 612
-        width: 1023
-        height: 612
+        x: 3077
+        y: 644
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,7 +783,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b02697fea56534291216a16165d5f1
+      spriteID: 7fce5ffbdd49c174d962b74a3b84af9b
       internalID: -497531792319312982
       vertices: []
       indices: 
@@ -793,10 +793,10 @@ TextureImporter:
       name: healthbar _28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1023
-        height: 612
+        x: 8
+        y: 32
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -804,7 +804,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10c7545a2eba81045999a1e0bb97fed9
+      spriteID: a4fba5b2b2c7a9f448f3d0936ba4f59b
       internalID: -3285944457863046138
       vertices: []
       indices: 
@@ -814,10 +814,10 @@ TextureImporter:
       name: healthbar _29
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 0
-        width: 1023
-        height: 612
+        x: 1031
+        y: 32
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -825,7 +825,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4efb56799e73dda47a8c2c52d0c61504
+      spriteID: 5ee2689b83a1de44fb2122c987fe98f1
       internalID: 693380905663333130
       vertices: []
       indices: 
@@ -835,10 +835,10 @@ TextureImporter:
       name: healthbar _30
       rect:
         serializedVersion: 2
-        x: 2046
-        y: 0
-        width: 1023
-        height: 612
+        x: 2054
+        y: 32
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,7 +846,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff88530f3e00064b9d1e554524bb490
+      spriteID: ce6e3e94bce696840be8b8feae3018a9
       internalID: -1605124182609396349
       vertices: []
       indices: 
@@ -856,10 +856,10 @@ TextureImporter:
       name: healthbar _31
       rect:
         serializedVersion: 2
-        x: 3069
-        y: 0
-        width: 1023
-        height: 612
+        x: 3077
+        y: 32
+        width: 1009
+        height: 519
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,7 +867,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee5fe5b6d989ac441873310ce3e4cb10
+      spriteID: f8c4927ea8af0a34985ac5bfea868309
       internalID: -3496289596502248313
       vertices: []
       indices: 
