@@ -10,6 +10,8 @@ public class BlueCharacter : MonoBehaviour
     public Sprite[] HealthBarImages;
 
     public Transform tntSpawner;
+    public Transform MeatBallSpawner;
+    public GameObject MeatBall;
     public float shot_delay = 2f;
     public float block_delay = 3f;
     public GameObject bullet_object;
@@ -38,6 +40,11 @@ public class BlueCharacter : MonoBehaviour
         {
             Shoot();
         }
+        if (Time.time >= shot_cooldown && Input.GetKey(KeyCode.I))
+        {
+            AltShoot();
+        }
+
 
         HarrysHealthBar.GetComponent<SpriteRenderer>().sprite = HealthBarImages[health - 1];
 
@@ -60,6 +67,11 @@ public class BlueCharacter : MonoBehaviour
     void Shoot()
     {
         Instantiate(bullet_object, tntSpawner.position, tntSpawner.rotation);
+        shot_cooldown = Time.time + shot_delay;
+    }
+    void AltShoot()
+    {
+        Instantiate(MeatBall, MeatBallSpawner.position, MeatBallSpawner.rotation);
         shot_cooldown = Time.time + shot_delay;
     }
     void Block(bool block)
