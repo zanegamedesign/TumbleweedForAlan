@@ -7,6 +7,7 @@ TagManager:
   - Harry
   - Sam
   - Bullet
+  - Ground
   layers:
   - Default
   - TransparentFX

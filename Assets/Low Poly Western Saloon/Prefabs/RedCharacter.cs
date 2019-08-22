@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class SecondCharacterScript : MonoBehaviour
+public class RedCharacter : MonoBehaviour
 {
-    public GameObject HarrysHealthBar;
+    public GameObject SamsHealthBar;
     int health = 16;
     public Sprite[] HealthBarImages;
 
@@ -26,7 +26,7 @@ public class SecondCharacterScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -37,12 +37,12 @@ public class SecondCharacterScript : MonoBehaviour
             Shoot();
         }
 
-        HarrysHealthBar.GetComponent<SpriteRenderer>().sprite = HealthBarImages[health - 1];
+        SamsHealthBar.GetComponent<SpriteRenderer>().sprite = HealthBarImages[health - 1];
 
         if (isBlocking)
             blockDurationCooldown -= Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKey(KeyCode.D))
         {
             if (Time.time >= block_cooldown)
             {
@@ -53,6 +53,7 @@ public class SecondCharacterScript : MonoBehaviour
         {
             Block(false);
         }
+     
 
     }
     void Shoot()

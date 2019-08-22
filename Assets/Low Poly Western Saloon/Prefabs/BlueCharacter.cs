@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class CharacterScript : MonoBehaviour
+public class BlueCharacter : MonoBehaviour
 {
-    public GameObject SamsHealthBar;
+    public GameObject HarrysHealthBar;
     int health = 16;
     public Sprite[] HealthBarImages;
 
@@ -22,26 +22,29 @@ public class CharacterScript : MonoBehaviour
     public float blockDuration = 2f;
     private float blockDurationCooldown = 0f;
 
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Time.time >= shot_cooldown && Input.GetKey(KeyCode.S))
+        if (Time.time >= shot_cooldown && Input.GetKey(KeyCode.K))
         {
             Shoot();
         }
 
-        SamsHealthBar.GetComponent<SpriteRenderer>().sprite = HealthBarImages[health - 1];
+        HarrysHealthBar.GetComponent<SpriteRenderer>().sprite = HealthBarImages[health - 1];
 
         if (isBlocking)
             blockDurationCooldown -= Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.L))
         {
             if (Time.time >= block_cooldown)
             {
@@ -52,14 +55,13 @@ public class CharacterScript : MonoBehaviour
         {
             Block(false);
         }
-    }
 
+    }
     void Shoot()
     {
         Instantiate(bullet_object, tntSpawner.position, tntSpawner.rotation);
         shot_cooldown = Time.time + shot_delay;
     }
-
     void Block(bool block)
     {
         isBlocking = block;
@@ -68,7 +70,8 @@ public class CharacterScript : MonoBehaviour
             Debug.Log("Stop blocking");
             block_cooldown = Time.time + block_delay;
             blockPrefab.SetActive(false);
-        } else
+        }
+        else
         {
             Debug.Log("Start blocking");
             blockDurationCooldown = blockDuration;
@@ -77,7 +80,7 @@ public class CharacterScript : MonoBehaviour
     }
     public void TakeDamage(int amount)
     {
-        if(isBlocking == false)
+        if (isBlocking == false)
         {
             health -= amount;
         }
@@ -86,4 +89,6 @@ public class CharacterScript : MonoBehaviour
             health -= (amount - blockDamageReduction);
         }
     }
+
+
 }

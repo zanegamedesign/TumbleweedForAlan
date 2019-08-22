@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TntScript : MonoBehaviour
 {
-    public int TntSpeed = 1;
+    public int TntSpeed = 100;
     public int damage = 3;
 
     // Update is called once per frame
@@ -23,12 +23,12 @@ public class TntScript : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Sam"))
         {
-            other.gameObject.GetComponent<CharacterScript>().TakeDamage(damage);
+            other.gameObject.GetComponent<RedCharacter>().TakeDamage(damage);
             Destroy(gameObject);
         }
         if (other.gameObject.tag.Equals("Harry"))
         {
-            other.gameObject.GetComponent<SecondCharacterScript>().TakeDamage(damage);
+            other.gameObject.GetComponent<BlueCharacter>().TakeDamage(damage);
             Destroy(gameObject);
         }
     }
